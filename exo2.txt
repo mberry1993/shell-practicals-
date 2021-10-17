@@ -1,0 +1,7 @@
+1. ls
+2. man ls
+3. ls -all
+4. ls -R
+5. man wc
+6. wc -l
+
