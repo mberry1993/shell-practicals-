@@ -1,0 +1,40 @@
+  2. ls
+  0. mkdir unix
+     ls
+    cd unix
+    touch foo.txt
+    ls
+  a.  cp foo.txt foo-copy.txt
+    ls
+  b. mv foo-copy.txt foo2.txt
+    ls
+  c.mkdir data
+    ls
+    mv foo2.txt data
+    cd data
+    ls
+    cd ..
+  d.mkdir new
+    ls
+    cd ..
+    ls
+    rmdir unix 
+    ls
+    cd ..
+    mkdir new
+    ls
+  e.mv data/foo2.txt new
+    cd new
+    ls
+    cd ..
+  f.mv new/foo2.txt foo-old.txt
+    ls
+   cd new
+   ls
+   cd ..
+  g.rm foo-old.txt
+   ls
+  h. rmdir new
+   ls
+  i. history >> exo1.txts
+
